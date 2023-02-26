@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gridSide: 16;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+}
+  
+.header{
+margin-top: 80px;
+margin-bottom: 20px;
+}
+.gridElement{
+height:auto;
+width:auto;
+background-color: white;
+border: solid;
+border-color: black;
+border-width: 1px;
+}
+
+.gridContainer{
+padding: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#grid{ 
+height: 980px;
+width:980px;
+border: groove;
+border-color: darkcyan;
+border-width: 10px;
+display: grid;
+grid-template-columns: repeat(var(--gridSide), 1fr);
+grid-template-rows: repeat(var(--gridSide),1fr);
+}
+
+.buttons{
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#size{
+font-size: inherit;
+background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#reset{
+font-family: inherit;
+background-color: darkcyan;
+width: 129.8px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
