@@ -11,7 +11,7 @@
 
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "VT323", sans-serif;
     height: 100%;
     width: 100%;
     background-color: darkgrey;
@@ -19,12 +19,13 @@ body{
 }
   
 .header{
+font-size: 75px; 
 margin-top: 80px;
-margin-bottom: 20px;
+margin-bottom: 0px;
 }
 .gridElement{
-height:auto;
-width:auto;
+width: auto;
+height: auto;
 background-color: white;
 border: solid;
 border-color: black;
@@ -57,7 +58,7 @@ grid-template-rows: repeat(var(--gridSide),1fr);
 }
 
 #size{
-font-size: inherit;
+font-family: inherit;
 background-color: darkcyan;
   border: none;
   color: white;
@@ -65,7 +66,7 @@ background-color: darkcyan;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -79,6 +80,6 @@ width: 129.8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 24px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
